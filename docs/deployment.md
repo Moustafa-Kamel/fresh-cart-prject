@@ -1,6 +1,6 @@
 # Vercel deployment
 
-Status: pending Vercel connection and a successful production smoke test. No live URL has been verified.
+Status: Deployed on Vercel: https://fresh-cart-prject.vercel.app”.
 
 Use the Next.js framework preset, repository root as the root directory, `npm ci` to install and `npm run build` to build. Keep the default output directory; this app needs a server for Auth.js, Server Actions and checkout.
 

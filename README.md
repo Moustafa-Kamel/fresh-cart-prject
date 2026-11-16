@@ -2,7 +2,7 @@
 
 A responsive e-commerce storefront built with Next.js App Router and the Route Academy e-commerce API.
 
-**Live site:** deployment pending; see [Vercel setup](docs/deployment.md). A production URL has not been verified.
+**Live site:** [FreshCart](https://fresh-cart-prject.vercel.app)
 
 ## Features
 

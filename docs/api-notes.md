@@ -103,7 +103,7 @@ The enabled Next.js feedback reporting command was attempted normally and again 
 - Recovery endpoints were checked with curl: POST `/auth/forgotPasswords`, POST `/auth/verifyResetCode`, PUT `/auth/resetPassword`. Real invalid-email and invalid-code responses are saved as `auth-forgot-invalid.json`, `auth-verify-reset-invalid.json`, and `auth-reset-invalid.json`. These requests confirm failure behavior, not a successful email delivery/reset.
 - Recovery email and verification state live in a separate encrypted HTTP-only cookie with a ten-minute lifetime. Verify and reset actions read this state on the server; the reset action cannot run before successful verification. Starting another recovery clears previous state. Successful reset clears recovery and returns to login.
 - Verify/reset API functions intentionally discard response bodies and return `Promise<void>`; no new response types or `unknown` values are introduced. Forgot-password uses the owner's `ForgotPasswordResponse` type.
-- Recovery success still requires a real inbox code for end-to-end verification. The API exposes no refresh-token endpoint in the verified auth flows; an expired session requires login again.
+- Update (2026-11-16): the owner confirmed successful recovery email delivery and code verification; that issue is resolved. Successful password reset verified by the owner on. The API exposes no refresh-token endpoint in the verified auth flows; an expired session requires login again.
 
 - Next.js 16.4 logs Server Function arguments by default in development. `logging.serverFunctions: false` prevents authentication passwords/code values from appearing in terminal logs.
 

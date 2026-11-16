@@ -1,0 +1,116 @@
+[
+  {
+    "sample": "cart-v2-anonymous.json",
+    "method": "GET",
+    "path": "/api/v2/cart",
+    "status": 401
+  },
+  {
+    "sample": "cart-v2-empty.json",
+    "method": "GET",
+    "path": "/api/v2/cart",
+    "status": 200
+  },
+  {
+    "sample": "cart-v2-add.json",
+    "method": "POST",
+    "path": "/api/v2/cart",
+    "status": 200
+  },
+  {
+    "sample": "cart-v2-get.json",
+    "method": "GET",
+    "path": "/api/v2/cart",
+    "status": 200
+  },
+  {
+    "sample": "cart-v2-update.json",
+    "method": "PUT",
+    "path": "/api/v2/cart/6428ebc6dc1175abc65ca0b9",
+    "status": 200
+  },
+  {
+    "sample": "cart-v2-coupon-invalid.json",
+    "method": "PUT",
+    "path": "/api/v2/cart/applyCoupon",
+    "status": 400
+  },
+  {
+    "sample": "cart-v2-remove.json",
+    "method": "DELETE",
+    "path": "/api/v2/cart/6428ebc6dc1175abc65ca0b9",
+    "status": 200
+  },
+  {
+    "sample": "cart-v2-add-before-clear.json",
+    "method": "POST",
+    "path": "/api/v2/cart",
+    "status": 200
+  },
+  {
+    "sample": "cart-v2-clear.json",
+    "method": "DELETE",
+    "path": "/api/v2/cart",
+    "status": 200
+  },
+  {
+    "sample": "cart-v2-after-clear.json",
+    "method": "GET",
+    "path": "/api/v2/cart",
+    "status": 200
+  },
+  {
+    "sample": "cart-v1-anonymous.json",
+    "method": "GET",
+    "path": "/api/v1/cart",
+    "status": 401
+  },
+  {
+    "sample": "cart-v1-empty.json",
+    "method": "GET",
+    "path": "/api/v1/cart",
+    "status": 200
+  },
+  {
+    "sample": "cart-v1-add.json",
+    "method": "POST",
+    "path": "/api/v1/cart",
+    "status": 200
+  },
+  {
+    "sample": "cart-v1-get.json",
+    "method": "GET",
+    "path": "/api/v1/cart",
+    "status": 200
+  },
+  {
+    "sample": "cart-v1-update.json",
+    "method": "PUT",
+    "path": "/api/v1/cart/6428ebc6dc1175abc65ca0b9",
+    "status": 200
+  },
+  {
+    "sample": "cart-v1-remove.json",
+    "method": "DELETE",
+    "path": "/api/v1/cart/6428ebc6dc1175abc65ca0b9",
+    "status": 200
+  },
+  {
+    "sample": "cart-v1-add-before-clear.json",
+    "method": "POST",
+    "path": "/api/v1/cart",
+    "status": 200
+  },
+  {
+    "sample": "cart-v1-clear.json",
+    "method": "DELETE",
+    "path": "/api/v1/cart",
+    "status": 200
+  },
+  {
+    "sample": "cart-v1-after-clear.json",
+    "method": "GET",
+    "path": "/api/v1/cart",
+    "status": 200
+  }
+]

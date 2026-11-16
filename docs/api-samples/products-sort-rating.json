@@ -1,0 +1,538 @@
+{
+  "results": 56,
+  "metadata": {
+    "currentPage": 1,
+    "numberOfPages": 5,
+    "limit": 12,
+    "nextPage": 2
+  },
+  "data": [
+    {
+      "sold": 52,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678296174553-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678296174554-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678296174554-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678296174555-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678296174555-5.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678296174555-6.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678296174556-7.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f39bb575d3b90bf957df",
+          "name": "TVs, Satellites & Accessories",
+          "slug": "tvs-satellites-and-accessories",
+          "category": "6439d2d167d9aa4ca970649f"
+        }
+      ],
+      "ratingsQuantity": 1,
+      "_id": "6408c46fab73fcc15c76138a",
+      "title": "43-Inch Full HD Smart TV With Built In Receiver 43T5300 / UA43T5300AUXEG Black",
+      "slug": "43-inch-full-hd-smart-tv-with-built-in-receiver-43t5300-ua43t5300auxeg-black",
+      "description": "Analyzing original content with an advanced algorithm Ultra Clean View gives you higher quality images\nWatch your favourite content with natural colours that deliver details as crisp as the real thing\nThis beautifully slim design melts into any existing décor and elevates the style without taking it over\nThe sleek One Remote Control keeps it simple, allowing you to quickly search all your favorite content from your set-top box to game console, apps, and even live TV\nIdeal viewing distance is 2.6 m\nContrast enhancer brings flat images to life by adjusting contrast and delivering stunning image quality with more depth\nEnhanced details for clearer photos ultra clean view theme delivers high-quality images with less noise, while using an advanced algorithm to analyze original content and provide enhanced detail\nExceptional gaming performance with quick response action, colour and detail of brings everything you watch is clear, bright and incredibly realistic",
+      "quantity": 300,
+      "price": 8899,
+      "priceAfterDiscount": 8138,
+      "availableColors": [],
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1678296174190-cover.jpeg",
+      "category": {
+        "_id": "6439d2d167d9aa4ca970649f",
+        "name": "Electronics",
+        "slug": "electronics",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png"
+      },
+      "brand": {
+        "_id": "64089df124b25627a25315ab",
+        "name": "Samsung",
+        "slug": "samsung",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678286321029.png"
+      },
+      "ratingsAverage": 5,
+      "createdAt": "2023-03-08T17:22:55.320Z",
+      "updatedAt": "2026-10-09T21:45:14.820Z",
+      "id": "6408c46fab73fcc15c76138a"
+    },
+    {
+      "sold": 219,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680392258020-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680392258021-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680392258020-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680392258021-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680392258022-7.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680392258021-6.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680392258021-5.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f243b575d3b90bf957ac",
+          "name": "Men's Clothing",
+          "slug": "men's-clothing",
+          "category": "6439d5b90049ad0b52b90048"
+        }
+      ],
+      "ratingsQuantity": 2,
+      "_id": "6428c042dc1175abc65c9ff7",
+      "title": "Crew Neck Long Sleeve Men's Tricot Sweater with Color Block",
+      "slug": "crew-neck-long-sleeve-men's-tricot-sweater-with-color-block",
+      "description": "Tricot fabric, Tricot fabric, Ribbed ankles and bottom\nWASH AT MAXIMUM 30 °C, DO NOT USE BLEACH, DO NOT TUMBLE DRY, IRON AT LOW TEMPERATURE, DO NOT DRY CLEAN\n",
+      "quantity": 500,
+      "price": 549,
+      "priceAfterDiscount": 321,
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1680392257974-cover.jpeg",
+      "category": {
+        "_id": "6439d5b90049ad0b52b90048",
+        "name": "Men's Fashion",
+        "slug": "men's-fashion",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg"
+      },
+      "brand": {
+        "_id": "64089d9e24b25627a25315a5",
+        "name": "LC Waikiki",
+        "slug": "lc-waikiki",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678286238428.png"
+      },
+      "ratingsAverage": 5,
+      "createdAt": "2023-04-01T23:37:38.808Z",
+      "updatedAt": "2026-10-28T18:15:45.114Z",
+      "id": "6428c042dc1175abc65c9ff7"
+    },
+    {
+      "sold": 79,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297580295-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297580294-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297580295-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297580296-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297580297-7.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297580296-5.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297580296-6.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297580297-8.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f39bb575d3b90bf957df",
+          "name": "TVs, Satellites & Accessories",
+          "slug": "tvs-satellites-and-accessories",
+          "category": "6439d2d167d9aa4ca970649f"
+        }
+      ],
+      "ratingsQuantity": 1,
+      "_id": "6408c9ed6406cd15828e8ebc",
+      "title": "Smart LED TV 50 Inch Full HD With Built-In Receiver, 2 HDMI and 2 USB Inputs KDL-50WF665 Black - WE Offer (100 GB Free for 3 Months) KDL-50WF665 Black",
+      "slug": "smart-led-tv-50-inch-full-hd-with-built-in-receiver-2-hdmi-and-2-usb-inputs-kdl-50wf665-black-we-offer-(100-gb-free-for-3-months)-kdl-50wf665-black",
+      "description": "Connect with wired and wireless internet\nAccess YouTube instantly with one click\nUSB Tethering seamlessly connect to internet with mobile data\nResolution:1920 x 1080\nTriluminous display maps a wider palette than most other TVs, reproducing every shade and hue",
+      "quantity": 308,
+      "price": 14051,
+      "priceAfterDiscount": 0,
+      "availableColors": [],
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1678297580201-cover.jpeg",
+      "category": {
+        "_id": "6439d2d167d9aa4ca970649f",
+        "name": "Electronics",
+        "slug": "electronics",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png"
+      },
+      "brand": {
+        "_id": "64089f5824b25627a25315c7",
+        "name": "SONY",
+        "slug": "sony",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678286680638.png"
+      },
+      "ratingsAverage": 5,
+      "createdAt": "2023-03-08T17:46:21.050Z",
+      "updatedAt": "2026-10-09T21:44:38.986Z",
+      "id": "6408c9ed6406cd15828e8ebc"
+    },
+    {
+      "sold": 231,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680395033000-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680395032999-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680395033000-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680395033000-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680395033001-5.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f243b575d3b90bf957ac",
+          "name": "Men's Clothing",
+          "slug": "men's-clothing",
+          "category": "6439d5b90049ad0b52b90048"
+        }
+      ],
+      "ratingsQuantity": 3,
+      "_id": "6428cb19dc1175abc65ca031",
+      "title": "Salah Track Top",
+      "slug": "salah-track-top",
+      "description": "Material\tCotton Blend\nColour Name\tnight indigo\nDepartment\tMen",
+      "quantity": 110,
+      "price": 1749,
+      "priceAfterDiscount": 1094,
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1680395032949-cover.jpeg",
+      "category": {
+        "_id": "6439d5b90049ad0b52b90048",
+        "name": "Men's Fashion",
+        "slug": "men's-fashion",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg"
+      },
+      "brand": {
+        "_id": "64089c3924b25627a2531593",
+        "name": "Adidas",
+        "slug": "adidas",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678285881943.png"
+      },
+      "ratingsAverage": 5,
+      "createdAt": "2023-04-02T00:23:53.765Z",
+      "updatedAt": "2026-10-23T17:02:27.184Z",
+      "id": "6428cb19dc1175abc65ca031"
+    },
+    {
+      "sold": 117,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678301081467-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678301081467-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678301081468-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678301081466-1.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f3a8b575d3b90bf957e2",
+          "name": "Laptops & Accessories",
+          "slug": "laptops-and-accessories",
+          "category": "6439d2d167d9aa4ca970649f"
+        }
+      ],
+      "ratingsQuantity": 1,
+      "_id": "6408d79a6406cd15828e8ef8",
+      "title": "Laptop Ideapad-Gaming-3-15Imh05 15.6 Inch FHD Intel Core i7 10750H 16GB RAM 1TB HHD + 256GB SSD 4GB Nvidia Geforce Gtx 1650 Ti DDR6 DosOnyx English/Arabic Black",
+      "slug": "laptop-ideapad-gaming-3-15imh05-15.6-inch-fhd-intel-core-i7-10750h-16gb-ram-1tb-hhd-+-256gb-ssd-4gb-nvidia-geforce-gtx-1650-ti-ddr6-dosonyx-englisharabic-black",
+      "description": "Processor Information 10Gen Intel CoreI7-10750H 12M Cache, Up To 5.00 Ghz\nGraphic Card Nvidia Geforce Gtx 1650It 4 Gb\nStereo Speakers, 1.5W X2, Dolby Audio",
+      "quantity": 258,
+      "price": 27599,
+      "availableColors": [],
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1678301081374-cover.jpeg",
+      "category": {
+        "_id": "6439d2d167d9aa4ca970649f",
+        "name": "Electronics",
+        "slug": "electronics",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png"
+      },
+      "brand": {
+        "_id": "64089f8b24b25627a25315ca",
+        "name": "Lenovo",
+        "slug": "lenovo",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678286730980.png"
+      },
+      "ratingsAverage": 5,
+      "createdAt": "2023-03-08T18:44:42.035Z",
+      "updatedAt": "2026-10-16T08:00:31.065Z",
+      "id": "6408d79a6406cd15828e8ef8"
+    },
+    {
+      "sold": 68,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678299872467-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678299872466-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678299872467-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678299872468-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678299872468-5.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f39bb575d3b90bf957df",
+          "name": "TVs, Satellites & Accessories",
+          "slug": "tvs-satellites-and-accessories",
+          "category": "6439d2d167d9aa4ca970649f"
+        }
+      ],
+      "ratingsQuantity": 1,
+      "_id": "6408d2e16406cd15828e8ee6",
+      "title": "43 Inch LED TV Full HD with Built-In Receiver, 2 HDMI and 2 USB Inputs 43L3965EA Black",
+      "slug": "43-inch-led-tv-full-hd-with-built-in-receiver-2-hdmi-and-2-usb-inputs-43l3965ea-black",
+      "description": "Analyzing original content with an advanced algorithm Ultra Clean View gives you higher quality images\nWatch your favourite content with natural colours that deliver details as crisp as the real thing\nThis beautifully slim design melts into any existing décor and elevates the style without taking it over\nThe sleek One Remote Control keeps it simple\nDelivers superior picture quality with enhanced color purity\nEnjoy rich, flawless, multi-dimensional audio as the built-in speakers on your TV deliver sound from all angles\nMaintains accurate color, even from the sides, and allows everyone to enjoy the realistic picture\nWe think inside, outside and about the box. Thus, our packaging lives up to the brand image and the quality of the product",
+      "quantity": 250,
+      "price": 8999,
+      "priceAfterDiscount": 0,
+      "availableColors": [],
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1678299872385-cover.jpeg",
+      "category": {
+        "_id": "6439d2d167d9aa4ca970649f",
+        "name": "Electronics",
+        "slug": "electronics",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png"
+      },
+      "brand": {
+        "_id": "64089aa924b25627a2531576",
+        "name": "Toshiba",
+        "slug": "toshiba",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678285481289.png"
+      },
+      "ratingsAverage": 5,
+      "createdAt": "2023-03-08T18:24:33.379Z",
+      "updatedAt": "2026-10-10T20:05:15.649Z",
+      "id": "6408d2e16406cd15828e8ee6"
+    },
+    {
+      "sold": 83,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298336132-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298336132-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298336131-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298336133-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298336133-5.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f39bb575d3b90bf957df",
+          "name": "TVs, Satellites & Accessories",
+          "slug": "tvs-satellites-and-accessories",
+          "category": "6439d2d167d9aa4ca970649f"
+        }
+      ],
+      "ratingsQuantity": 30,
+      "_id": "6408cce16406cd15828e8ece",
+      "title": "TORNADO LED TV 32 Inch HD With Built-In Receiver, 2 HDMI and 2 USB Inputs 32ER9300E Black",
+      "slug": "tornado-led-tv-32-inch-hd-with-built-in-receiver-2-hdmi-and-2-usb-inputs-32er9300e-black",
+      "description": "Viewing Angle : 178°\nUSB : Video - Photos - Music\nContrast Ratio : 1:1100\nLED TVs are more energy-efficient as these models use light emitting diodes (LED) for backlighting\nThese TVs consume less power as compared to cold cathode fluorescent lamps (CCFL), which most LCD TVs use\nThis results in a power savings of up to 30%\nDimensions ( Width x Height x Depth ) mm :- Without Stand : 733 x 433.3 x 77.1. With Stand : 733 x 469.5 x 178.2",
+      "quantity": 238,
+      "price": 5114,
+      "priceAfterDiscount": 0,
+      "availableColors": [],
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1678298336042-cover.jpeg",
+      "category": {
+        "_id": "6439d2d167d9aa4ca970649f",
+        "name": "Electronics",
+        "slug": "electronics",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png"
+      },
+      "brand": {
+        "_id": "64089f5824b25627a25315c7",
+        "name": "SONY",
+        "slug": "sony",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678286680638.png"
+      },
+      "ratingsAverage": 4.9,
+      "createdAt": "2023-03-08T17:58:57.116Z",
+      "updatedAt": "2026-10-11T23:52:28.774Z",
+      "id": "6408cce16406cd15828e8ece"
+    },
+    {
+      "sold": 45,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678296691201-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678296691201-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678296691202-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678296691203-5.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678296691201-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678296691203-6.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678296691204-7.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678296691204-8.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f39bb575d3b90bf957df",
+          "name": "TVs, Satellites & Accessories",
+          "slug": "tvs-satellites-and-accessories",
+          "category": "6439d2d167d9aa4ca970649f"
+        }
+      ],
+      "ratingsQuantity": 98,
+      "_id": "6408c674ab73fcc15c761392",
+      "title": "24-Inch Full HD Curved Monitor Black",
+      "slug": "24-inch-full-hd-curved-monitor-black",
+      "description": "Offers a vivid display that contains everything you need\nStands for evolving office requirements\nWide viewing angles keep colors consistent no matter where you sit\nOptimizes eye comfort\nReduces harmful blue light emissions\nThis monitor's Eye Saver mode makes viewing more comfortable and less taxing on the eyes",
+      "quantity": 303,
+      "price": 4499,
+      "priceAfterDiscount": 3399,
+      "availableColors": [],
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1678296691139-cover.jpeg",
+      "category": {
+        "_id": "6439d2d167d9aa4ca970649f",
+        "name": "Electronics",
+        "slug": "electronics",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png"
+      },
+      "brand": {
+        "_id": "64089df124b25627a25315ab",
+        "name": "Samsung",
+        "slug": "samsung",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678286321029.png"
+      },
+      "ratingsAverage": 4.7,
+      "createdAt": "2023-03-08T17:31:32.337Z",
+      "updatedAt": "2026-10-05T16:27:52.355Z",
+      "id": "6408c674ab73fcc15c761392"
+    },
+    {
+      "sold": 235,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680394855240-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680394855240-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680394855239-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680394855240-4.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f243b575d3b90bf957ac",
+          "name": "Men's Clothing",
+          "slug": "men's-clothing",
+          "category": "6439d5b90049ad0b52b90048"
+        }
+      ],
+      "ratingsQuantity": 3,
+      "_id": "6428ca68dc1175abc65ca02b",
+      "title": "Adicolor Classics Beckenbauer Primeblue Track Top",
+      "slug": "adicolor-classics-beckenbauer-primeblue-track-top",
+      "description": "Material\tCotton Blend\nColour Name\tnight indigo\nDepartment\tMen",
+      "quantity": 120,
+      "price": 2379,
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1680394855158-cover.jpeg",
+      "category": {
+        "_id": "6439d5b90049ad0b52b90048",
+        "name": "Men's Fashion",
+        "slug": "men's-fashion",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg"
+      },
+      "brand": {
+        "_id": "64089c3924b25627a2531593",
+        "name": "Adidas",
+        "slug": "adidas",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678285881943.png"
+      },
+      "ratingsAverage": 4.7,
+      "createdAt": "2023-04-02T00:20:56.323Z",
+      "updatedAt": "2026-10-28T17:36:28.767Z",
+      "id": "6428ca68dc1175abc65ca02b"
+    },
+    {
+      "sold": 1579,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680402563676-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680402563676-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680402563677-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680402563675-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680402563677-5.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f1bcb575d3b90bf95797",
+          "name": "Women's Clothing",
+          "slug": "women's-clothing",
+          "category": "6439d58a0049ad0b52b9003f"
+        }
+      ],
+      "ratingsQuantity": 14,
+      "_id": "6428e884dc1175abc65ca096",
+      "title": "Woman Shawl",
+      "slug": "woman-shawl",
+      "description": "Material\tPolyester Blend\nColour Name\tBeige\nDepartment\tWomen",
+      "quantity": 228,
+      "price": 349,
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1680402563605-cover.jpeg",
+      "category": {
+        "_id": "6439d58a0049ad0b52b9003f",
+        "name": "Women's Fashion",
+        "slug": "women's-fashion",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg"
+      },
+      "brand": {
+        "_id": "64089bbe24b25627a253158b",
+        "name": "DeFacto",
+        "slug": "defacto",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png"
+      },
+      "ratingsAverage": 4.6,
+      "createdAt": "2023-04-02T02:29:24.696Z",
+      "updatedAt": "2026-10-28T12:42:11.560Z",
+      "id": "6428e884dc1175abc65ca096"
+    },
+    {
+      "sold": 132,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680391434704-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680391434704-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680391434705-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680391434706-4.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f243b575d3b90bf957ac",
+          "name": "Men's Clothing",
+          "slug": "men's-clothing",
+          "category": "6439d5b90049ad0b52b90048"
+        }
+      ],
+      "ratingsQuantity": 2,
+      "_id": "6428bd0bdc1175abc65c9fdb",
+      "title": "Standard Pattern Plaid Fleece Men's Pajamas Set",
+      "slug": "standard-pattern-plaid-fleece-men's-pajamas-set",
+      "description": "Material\tPolyester\nColour Name\tMulticolour\nDepartment\tMen\nMaterial Composition\tMAIN FABRIC: 100% Polyester\nModel Number\tW2BK93Z8-RQN\nModel Name\tW2BK93Z8-RQN-BLACK",
+      "quantity": 200,
+      "price": 699,
+      "priceAfterDiscount": 456,
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1680391434638-cover.jpeg",
+      "category": {
+        "_id": "6439d5b90049ad0b52b90048",
+        "name": "Men's Fashion",
+        "slug": "men's-fashion",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511865180.jpeg"
+      },
+      "brand": {
+        "_id": "64089d9e24b25627a25315a5",
+        "name": "LC Waikiki",
+        "slug": "lc-waikiki",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678286238428.png"
+      },
+      "ratingsAverage": 4.5,
+      "createdAt": "2023-04-01T23:23:55.488Z",
+      "updatedAt": "2026-10-27T17:21:49.821Z",
+      "id": "6428bd0bdc1175abc65c9fdb"
+    },
+    {
+      "sold": 101,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298246326-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298246325-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298246326-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298246325-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298246327-5.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f39bb575d3b90bf957df",
+          "name": "TVs, Satellites & Accessories",
+          "slug": "tvs-satellites-and-accessories",
+          "category": "6439d2d167d9aa4ca970649f"
+        }
+      ],
+      "ratingsQuantity": 50,
+      "_id": "6408cc876406cd15828e8ec8",
+      "title": "TORNADO Smart LED TV 32 Inch HD With Built-In Receiver, 2 HDMI and 2 USB Inputs 32ES1500E Black - WE Offer (50 GB Free for 1 Month) 32ES1500E Black",
+      "slug": "tornado-smart-led-tv-32-inch-hd-with-built-in-receiver-2-hdmi-and-2-usb-inputs-32es1500e-black-we-offer-(50-gb-free-for-1-month)-32es1500e-black",
+      "description": "Connect With Wired and Wireless Internet\nUSB : Video - Photos - Music\nSound Modes : Standard - Music - Movies - Sports - Personal\nOperating System: Tornado Portal",
+      "quantity": 230,
+      "price": 4799,
+      "priceAfterDiscount": 0,
+      "availableColors": [],
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1678298246240-cover.jpeg",
+      "category": {
+        "_id": "6439d2d167d9aa4ca970649f",
+        "name": "Electronics",
+        "slug": "electronics",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png"
+      },
+      "brand": {
+        "_id": "64089f5824b25627a25315c7",
+        "name": "SONY",
+        "slug": "sony",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678286680638.png"
+      },
+      "ratingsAverage": 4.5,
+      "createdAt": "2023-03-08T17:57:27.062Z",
+      "updatedAt": "2026-10-22T13:21:46.128Z",
+      "id": "6408cc876406cd15828e8ec8"
+    }
+  ]
+}

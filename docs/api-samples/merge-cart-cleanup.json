@@ -1,0 +1,10 @@
+{
+  "status": "success",
+  "message": "Cart cleared",
+  "numOfCartItems": 0,
+  "cartId": null,
+  "data": {
+    "products": [],
+    "totalCartPrice": 0
+  }
+}

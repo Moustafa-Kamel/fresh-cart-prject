@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "message": "Address added successfully",
+  "data": [
+    {
+      "_id": "[redacted]",
+      "name": "Test",
+      "details": "Test street",
+      "city": "Cairo",
+      "phone": "[redacted]"
+    }
+  ]
+}

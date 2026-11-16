@@ -1,0 +1,14 @@
+# Project-level Codex config. The Stitch key is read from the STITCH_API_KEY
+# environment variable, so no secret is stored in this file.
+
+
+
+[mcp_servers.shadcn]
+command = "npx"
+args = ["shadcn@latest", "mcp"]
+
+[mcp_servers.shadcn.tools.view_items_in_registries]
+approval_mode = "approve"
+
+[mcp_servers.shadcn.tools.get_item_examples_from_registries]
+approval_mode = "approve"

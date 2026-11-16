@@ -1,0 +1,10 @@
+{
+  "message": "verified",
+  "decoded": {
+    "id": "6af63ec5cfea3d001312d64d",
+    "name": "Checkout Test",
+    "role": "user",
+    "iat": 1794522822,
+    "exp": 1802298822
+  }
+}

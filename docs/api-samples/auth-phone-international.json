@@ -1,0 +1,9 @@
+{
+  "message": "fail",
+  "errors": {
+    "value": "+12345678900",
+    "msg": "accept only egypt phone numbers",
+    "param": "phone",
+    "location": "body"
+  }
+}

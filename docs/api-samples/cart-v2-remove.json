@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "message": "Item removed from cart",
+  "numOfCartItems": 0,
+  "cartId": "6af0c416cfea3d00130e8358",
+  "data": {
+    "_id": "6af0c416cfea3d00130e8358",
+    "cartOwner": "6af0c414cfea3d00130e834e",
+    "products": [],
+    "createdAt": "2026-11-08T18:48:54.064Z",
+    "updatedAt": "2026-11-08T18:48:55.986Z",
+    "__v": 1,
+    "totalCartPrice": 0
+  }
+}

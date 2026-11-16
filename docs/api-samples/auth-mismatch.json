@@ -1,0 +1,9 @@
+{
+  "message": "fail",
+  "errors": {
+    "value": "[REDACTED]",
+    "msg": "Password confirmation is incorrect",
+    "param": "password",
+    "location": "body"
+  }
+}

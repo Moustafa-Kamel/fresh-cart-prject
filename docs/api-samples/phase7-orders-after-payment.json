@@ -1,0 +1,180 @@
+[
+  {
+    "shippingAddress": {
+      "city": "Cairo",
+      "details": "10 Test Street, Apartment 2",
+      "phone": "01012345678"
+    },
+    "taxPrice": 20,
+    "shippingPrice": 100,
+    "totalOrderPrice": 269,
+    "paymentMethodType": "cash",
+    "isPaid": false,
+    "isDelivered": false,
+    "_id": "6af63eeecfea3d001312d66b",
+    "user": {
+      "_id": "6af63ec5cfea3d001312d64d",
+      "name": "Checkout Test",
+      "email": "checkout-b41193352d2e1872@example.com",
+      "phone": "01012345678"
+    },
+    "cartItems": [
+      {
+        "count": 1,
+        "_id": "6af63ed9cfea3d001312d65f",
+        "product": {
+          "subcategory": [
+            {
+              "_id": "6407f1bcb575d3b90bf95797",
+              "name": "Women's Clothing",
+              "slug": "women's-clothing",
+              "category": "6439d58a0049ad0b52b9003f"
+            }
+          ],
+          "ratingsQuantity": 54,
+          "_id": "6428ebc6dc1175abc65ca0b9",
+          "title": "Woman Shawl",
+          "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1680403397402-cover.jpeg",
+          "category": {
+            "_id": "6439d58a0049ad0b52b9003f",
+            "name": "Women's Fashion",
+            "slug": "women's-fashion",
+            "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg"
+          },
+          "brand": {
+            "_id": "64089bbe24b25627a253158b",
+            "name": "DeFacto",
+            "slug": "defacto",
+            "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png"
+          },
+          "ratingsAverage": 4.1,
+          "id": "6428ebc6dc1175abc65ca0b9"
+        },
+        "price": 149
+      }
+    ],
+    "createdAt": "2026-11-12T22:34:22.449Z",
+    "updatedAt": "2026-11-12T22:34:22.449Z",
+    "id": 10417,
+    "__v": 0
+  },
+  {
+    "shippingAddress": {
+      "city": "Cairo",
+      "details": "10 Browser Street, Apartment 2",
+      "phone": "01012345678"
+    },
+    "taxPrice": 20,
+    "shippingPrice": 100,
+    "totalOrderPrice": 269,
+    "paymentMethodType": "cash",
+    "isPaid": false,
+    "isDelivered": false,
+    "_id": "6af641e4cfea3d001312d733",
+    "user": {
+      "_id": "6af63ec5cfea3d001312d64d",
+      "name": "Checkout Test",
+      "email": "checkout-b41193352d2e1872@example.com",
+      "phone": "01012345678"
+    },
+    "cartItems": [
+      {
+        "count": 1,
+        "_id": "6af6416dcfea3d001312d703",
+        "product": {
+          "subcategory": [
+            {
+              "_id": "6407f1bcb575d3b90bf95797",
+              "name": "Women's Clothing",
+              "slug": "women's-clothing",
+              "category": "6439d58a0049ad0b52b9003f"
+            }
+          ],
+          "ratingsQuantity": 54,
+          "_id": "6428ebc6dc1175abc65ca0b9",
+          "title": "Woman Shawl",
+          "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1680403397402-cover.jpeg",
+          "category": {
+            "_id": "6439d58a0049ad0b52b9003f",
+            "name": "Women's Fashion",
+            "slug": "women's-fashion",
+            "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg"
+          },
+          "brand": {
+            "_id": "64089bbe24b25627a253158b",
+            "name": "DeFacto",
+            "slug": "defacto",
+            "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png"
+          },
+          "ratingsAverage": 4.1,
+          "id": "6428ebc6dc1175abc65ca0b9"
+        },
+        "price": 149
+      }
+    ],
+    "createdAt": "2026-11-12T22:47:00.740Z",
+    "updatedAt": "2026-11-12T22:47:00.740Z",
+    "id": 10418,
+    "__v": 0
+  },
+  {
+    "shippingAddress": {
+      "details": "10 Browser Street, Apartment 2",
+      "city": "Cairo",
+      "phone": "01012345678"
+    },
+    "taxPrice": 0,
+    "shippingPrice": 0,
+    "totalOrderPrice": 149,
+    "paymentMethodType": "card",
+    "isPaid": true,
+    "isDelivered": false,
+    "_id": "6af642fecfea3d001312d798",
+    "user": {
+      "_id": "6af63ec5cfea3d001312d64d",
+      "name": "Checkout Test",
+      "email": "checkout-b41193352d2e1872@example.com",
+      "phone": "01012345678"
+    },
+    "cartItems": [
+      {
+        "count": 1,
+        "_id": "6af64233cfea3d001312d760",
+        "product": {
+          "subcategory": [
+            {
+              "_id": "6407f1bcb575d3b90bf95797",
+              "name": "Women's Clothing",
+              "slug": "women's-clothing",
+              "category": "6439d58a0049ad0b52b9003f"
+            }
+          ],
+          "ratingsQuantity": 54,
+          "_id": "6428ebc6dc1175abc65ca0b9",
+          "title": "Woman Shawl",
+          "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1680403397402-cover.jpeg",
+          "category": {
+            "_id": "6439d58a0049ad0b52b9003f",
+            "name": "Women's Fashion",
+            "slug": "women's-fashion",
+            "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg"
+          },
+          "brand": {
+            "_id": "64089bbe24b25627a253158b",
+            "name": "DeFacto",
+            "slug": "defacto",
+            "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png"
+          },
+          "ratingsAverage": 4.1,
+          "id": "6428ebc6dc1175abc65ca0b9"
+        },
+        "price": 149
+      }
+    ],
+    "paidAt": "2026-11-12T22:51:42.628Z",
+    "createdAt": "2026-11-12T22:51:42.630Z",
+    "updatedAt": "2026-11-12T22:51:42.630Z",
+    "id": 10419,
+    "__v": 0
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "message": "Address added successfully",
+  "data": [
+    {
+      "_id": "6af63ed8cfea3d001312d650",
+      "name": "Test home",
+      "city": "Cairo",
+      "details": "10 Test Street, Apartment 2",
+      "phone": "01012345678"
+    }
+  ]
+}

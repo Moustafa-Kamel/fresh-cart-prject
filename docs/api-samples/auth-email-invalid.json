@@ -1,0 +1,9 @@
+{
+  "message": "fail",
+  "errors": {
+    "value": "invalid",
+    "msg": "Invalid email ",
+    "param": "email",
+    "location": "body"
+  }
+}

@@ -1,0 +1,163 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --color-promo-fruit-start: var(--promo-fruit-start);
+  --color-promo-fruit-end: var(--promo-fruit-end);
+  --color-promo-vegetable-start: var(--promo-vegetable-start);
+  --color-promo-vegetable-end: var(--promo-vegetable-end);
+  --color-promo-vegetable-link: var(--promo-vegetable-link);
+  --color-deal: var(--deal);
+  --color-deal-muted: var(--deal-muted);
+  --color-deal-green: var(--deal-green);
+  --color-rating: var(--rating);
+  --color-info: var(--info);
+  --color-support: var(--support);
+  --color-return: var(--return);
+  --color-border-subtle: var(--border-subtle);
+  --shadow-card: var(--elevation-card);
+  --shadow-card-hover: var(--elevation-card-hover);
+  --shadow-floating: var(--elevation-floating);
+  --shadow-header: var(--elevation-header);
+  --text-display: 2.375rem;
+  --text-display--line-height: 2.875rem;
+  --text-display--font-weight: 800;
+  --text-display--letter-spacing: -0.02em;
+  --text-display-mobile: 1.75rem;
+  --text-display-mobile--line-height: 2.125rem;
+  --text-display-mobile--font-weight: 800;
+  --text-display-mobile--letter-spacing: -0.015em;
+  --text-badge: 0.6875rem;
+  --text-badge--line-height: 0.875rem;
+  --text-badge--font-weight: 700;
+  --color-primary-hover: var(--primary-hover);
+  --color-subtle-foreground: var(--subtle-foreground);
+  --color-footer: var(--footer);
+  --color-footer-foreground: var(--footer-foreground);
+  --color-footer-muted: var(--footer-muted);
+  --color-footer-subtle: var(--footer-subtle);
+  --color-footer-card: var(--footer-card);
+  --color-footer-border: var(--footer-border);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-mono: monospace;
+  --font-heading: var(--font-inter);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-xs: 0.25rem;
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  --promo-fruit-start: #00b984;
+  --promo-fruit-end: #007a56;
+  --promo-vegetable-start: #ff9000;
+  --promo-vegetable-end: #ff175b;
+  --promo-vegetable-link: #ff6b00;
+  color-scheme: light;
+  --background: #ffffff;
+  --foreground: #1f2937;
+  --card: #ffffff;
+  --card-foreground: #1f2937;
+  --popover: #ffffff;
+  --popover-foreground: #1f2937;
+  --primary: #087508;
+  --primary-foreground: #ffffff;
+  --primary-hover: #066806;
+  --secondary: #f0f3f2;
+  --secondary-foreground: #4b5563;
+  --muted: #f8f9fa;
+  --muted-foreground: #4b5563;
+  --subtle-foreground: var(--muted-foreground);
+  --accent: #e8f7e8;
+  --accent-foreground: var(--primary);
+  --destructive: #e11d48;
+  --deal: #fa5b16;
+  --deal-muted: #feede6;
+  --deal-green: #00965e;
+  --rating: #ffb800;
+  --info: #2563eb;
+  --support: #7c3aed;
+  --return: #f97316;
+  --border-subtle: #e2e8f0;
+  --border: #e5e7eb;
+  --input: #e5e7eb;
+  --ring: #0aad0a;
+  --footer: #0d1727;
+  --footer-foreground: #ffffff;
+  --footer-muted: #9ca3af;
+  --footer-subtle: #6b7280;
+  --footer-card: #1a2536;
+  --footer-border: rgb(255 255 255 / 10%);
+  --radius: 0.5rem;
+  --elevation-card: 0 1px 3px rgb(0 0 0 / 5%), 0 1px 2px rgb(0 0 0 / 3%);
+  --elevation-card-hover:
+    0 10px 25px -5px rgb(0 0 0 / 8%), 0 8px 10px -6px rgb(0 0 0 / 4%);
+  --elevation-floating: 0 2px 4px rgb(0 0 0 / 8%);
+  --elevation-header: 0 1px 4px rgb(0 0 0 / 6%);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    @apply font-sans;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto;
+  }
+}
+
+@layer base {
+  button {
+    @apply cursor-pointer;
+  }
+
+  a,
+  button,
+  input {
+    @apply focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ring;
+  }
+}
+
+@layer utilities {
+  .shadow-smooth-hover {
+    box-shadow:
+      rgba(0, 0, 0, 0.098) 0px 9.99851px 14.9978px -2.99955px,
+      rgba(0, 0, 0, 0.098) 0px 3.9994px 5.99911px -3.9994px;
+  }
+}

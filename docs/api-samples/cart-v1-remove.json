@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "numOfCartItems": 0,
+  "cartId": "6af0c41acfea3d00130e8392",
+  "data": {
+    "_id": "6af0c41acfea3d00130e8392",
+    "cartOwner": "6af0c414cfea3d00130e834e",
+    "products": [],
+    "createdAt": "2026-11-08T18:48:58.358Z",
+    "updatedAt": "2026-11-08T18:48:59.715Z",
+    "__v": 0,
+    "totalCartPrice": 0
+  }
+}

@@ -60,7 +60,7 @@ At the end of each phase (not after every small change), `npm run lint`, `npx ts
 and `npm run build` all pass, and the feature works by hand on mobile and desktop.
 
 ## Current status
-Done: Phase 1 (shell), Phase 2 (API layer), Phase 3 (catalog pages).
+Done: Phase 1 (shell), Phase 2 (API layer), Phase 3 (catalog pages), All Phase is Done.
 Now: matching the new Stitch design section by section (Home, then Product details, then Products).
 Auth: Auth.js Credentials + JWT session. The API token stays inside the JWT and is read on the server only; it is never copied into the session.
 

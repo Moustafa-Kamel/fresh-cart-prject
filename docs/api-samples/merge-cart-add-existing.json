@@ -1,0 +1,49 @@
+{
+  "status": "success",
+  "message": "Product added successfully to your cart",
+  "numOfCartItems": 1,
+  "cartId": "6af12f4fcfea3d00130f2f53",
+  "data": {
+    "_id": "6af12f4fcfea3d00130f2f53",
+    "products": [
+      {
+        "count": 4,
+        "_id": "6af12f4fcfea3d00130f2f54",
+        "product": {
+          "subcategory": [
+            {
+              "_id": "6407f1bcb575d3b90bf95797",
+              "name": "Women's Clothing",
+              "slug": "women's-clothing",
+              "category": "6439d58a0049ad0b52b9003f"
+            }
+          ],
+          "_id": "6428ebc6dc1175abc65ca0b9",
+          "title": "Woman Shawl",
+          "slug": "woman-shawl",
+          "quantity": 220,
+          "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1680403397402-cover.jpeg",
+          "category": {
+            "_id": "6439d58a0049ad0b52b9003f",
+            "name": "Women's Fashion",
+            "slug": "women's-fashion",
+            "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg"
+          },
+          "brand": {
+            "_id": "64089bbe24b25627a253158b",
+            "name": "DeFacto",
+            "slug": "defacto",
+            "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png"
+          },
+          "ratingsAverage": 4.1,
+          "id": "6428ebc6dc1175abc65ca0b9"
+        },
+        "price": 149
+      }
+    ],
+    "createdAt": "2026-11-09T02:26:23.506Z",
+    "updatedAt": "2026-11-09T02:26:24.558Z",
+    "__v": 0,
+    "totalCartPrice": 596
+  }
+}

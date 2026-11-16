@@ -1,0 +1,254 @@
+{
+  "results": 6,
+  "metadata": {
+    "currentPage": 1,
+    "numberOfPages": 1,
+    "limit": 12
+  },
+  "data": [
+    {
+      "sold": 3027,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680403397482-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680403397482-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680403397483-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680403397485-4.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f1bcb575d3b90bf95797",
+          "name": "Women's Clothing",
+          "slug": "women's-clothing",
+          "category": "6439d58a0049ad0b52b9003f"
+        }
+      ],
+      "ratingsQuantity": 48,
+      "_id": "6428ebc6dc1175abc65ca0b9",
+      "title": "Woman Shawl",
+      "slug": "woman-shawl",
+      "description": "Material\tPolyester Blend\nColour Name\tMulticolour\nDepartment\tWomen",
+      "quantity": 220,
+      "price": 149,
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1680403397402-cover.jpeg",
+      "category": {
+        "_id": "6439d58a0049ad0b52b9003f",
+        "name": "Women's Fashion",
+        "slug": "women's-fashion",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg"
+      },
+      "brand": {
+        "_id": "64089bbe24b25627a253158b",
+        "name": "DeFacto",
+        "slug": "defacto",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png"
+      },
+      "ratingsAverage": 4.1,
+      "createdAt": "2023-04-02T02:43:18.400Z",
+      "updatedAt": "2026-10-28T17:54:06.737Z",
+      "id": "6428ebc6dc1175abc65ca0b9"
+    },
+    {
+      "sold": 5146,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680403266805-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680403266806-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680403266806-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680403266807-4.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f1bcb575d3b90bf95797",
+          "name": "Women's Clothing",
+          "slug": "women's-clothing",
+          "category": "6439d58a0049ad0b52b9003f"
+        }
+      ],
+      "ratingsQuantity": 46,
+      "_id": "6428eb43dc1175abc65ca0b3",
+      "title": "Woman Shawl",
+      "slug": "woman-shawl",
+      "description": "Material\tPolyester Blend\nColour Name\tMulticolour\nDepartment\tWomen",
+      "quantity": 220,
+      "price": 149,
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1680403266739-cover.jpeg",
+      "category": {
+        "_id": "6439d58a0049ad0b52b9003f",
+        "name": "Women's Fashion",
+        "slug": "women's-fashion",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg"
+      },
+      "brand": {
+        "_id": "64089bbe24b25627a253158b",
+        "name": "DeFacto",
+        "slug": "defacto",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png"
+      },
+      "ratingsAverage": 3.9,
+      "createdAt": "2023-04-02T02:41:07.506Z",
+      "updatedAt": "2026-10-28T17:34:51.287Z",
+      "id": "6428eb43dc1175abc65ca0b3"
+    },
+    {
+      "sold": 4431,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680403156555-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680403156555-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680403156554-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680403156556-4.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f1bcb575d3b90bf95797",
+          "name": "Women's Clothing",
+          "slug": "women's-clothing",
+          "category": "6439d58a0049ad0b52b9003f"
+        }
+      ],
+      "ratingsQuantity": 31,
+      "_id": "6428ead5dc1175abc65ca0ad",
+      "title": "Woman Shawl",
+      "slug": "woman-shawl",
+      "description": "Material\tPolyester Blend\nColour Name\tMulticolour\nDepartment\tWomen",
+      "quantity": 220,
+      "price": 149,
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1680403156501-cover.jpeg",
+      "category": {
+        "_id": "6439d58a0049ad0b52b9003f",
+        "name": "Women's Fashion",
+        "slug": "women's-fashion",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg"
+      },
+      "brand": {
+        "_id": "64089bbe24b25627a253158b",
+        "name": "DeFacto",
+        "slug": "defacto",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png"
+      },
+      "ratingsAverage": 4,
+      "createdAt": "2023-04-02T02:39:17.204Z",
+      "updatedAt": "2026-10-28T19:32:08.203Z",
+      "id": "6428ead5dc1175abc65ca0ad"
+    },
+    {
+      "sold": 2787,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680402838330-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680402838331-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680402838332-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680402838331-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680402838332-5.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f1bcb575d3b90bf95797",
+          "name": "Women's Clothing",
+          "slug": "women's-clothing",
+          "category": "6439d58a0049ad0b52b9003f"
+        }
+      ],
+      "ratingsQuantity": 24,
+      "_id": "6428e997dc1175abc65ca0a1",
+      "title": "Woman Shawl",
+      "slug": "woman-shawl",
+      "description": "Material\tPolyester Blend\nColour Name\tMulticolour\nDepartment\tWomen",
+      "quantity": 220,
+      "price": 149,
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1680402838276-cover.jpeg",
+      "category": {
+        "_id": "6439d58a0049ad0b52b9003f",
+        "name": "Women's Fashion",
+        "slug": "women's-fashion",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg"
+      },
+      "brand": {
+        "_id": "64089bbe24b25627a253158b",
+        "name": "DeFacto",
+        "slug": "defacto",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png"
+      },
+      "ratingsAverage": 4,
+      "createdAt": "2023-04-02T02:33:59.274Z",
+      "updatedAt": "2026-10-28T12:42:11.560Z",
+      "id": "6428e997dc1175abc65ca0a1"
+    },
+    {
+      "sold": 851,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680401528923-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680401528924-2.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f1bcb575d3b90bf95797",
+          "name": "Women's Clothing",
+          "slug": "women's-clothing",
+          "category": "6439d58a0049ad0b52b9003f"
+        }
+      ],
+      "ratingsQuantity": 13,
+      "_id": "6428e479dc1175abc65ca078",
+      "title": "Woman Socks",
+      "slug": "woman-socks",
+      "description": "Colour Name\tPink\nDepartment\tWomen\nMaterial Composition\tPolyester Blend",
+      "quantity": 117,
+      "price": 199,
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1680401528864-cover.jpeg",
+      "category": {
+        "_id": "6439d58a0049ad0b52b9003f",
+        "name": "Women's Fashion",
+        "slug": "women's-fashion",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg"
+      },
+      "brand": {
+        "_id": "64089bbe24b25627a253158b",
+        "name": "DeFacto",
+        "slug": "defacto",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png"
+      },
+      "ratingsAverage": 4.1,
+      "createdAt": "2023-04-02T02:12:09.566Z",
+      "updatedAt": "2026-10-28T11:44:57.072Z",
+      "id": "6428e479dc1175abc65ca078"
+    },
+    {
+      "sold": 587,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680401176767-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680401176766-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1680401176768-3.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f1bcb575d3b90bf95797",
+          "name": "Women's Clothing",
+          "slug": "women's-clothing",
+          "category": "6439d58a0049ad0b52b9003f"
+        }
+      ],
+      "ratingsQuantity": 10,
+      "_id": "6428e319dc1175abc65ca06d",
+      "title": "Woman Karma Socks Multicolour",
+      "slug": "woman-karma-socks-multicolour",
+      "description": "Soft and comfortable cotton fabric\nCrew neck and short sleeves\nComfortable, regular fit\nWash according to care label instructions",
+      "quantity": 117,
+      "price": 199,
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1680401176411-cover.jpeg",
+      "category": {
+        "_id": "6439d58a0049ad0b52b9003f",
+        "name": "Women's Fashion",
+        "slug": "women's-fashion",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511818071.jpeg"
+      },
+      "brand": {
+        "_id": "64089bbe24b25627a253158b",
+        "name": "DeFacto",
+        "slug": "defacto",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678285758109.png"
+      },
+      "ratingsAverage": 3.2,
+      "createdAt": "2023-04-02T02:06:17.489Z",
+      "updatedAt": "2026-10-28T16:53:14.442Z",
+      "id": "6428e319dc1175abc65ca06d"
+    }
+  ]
+}

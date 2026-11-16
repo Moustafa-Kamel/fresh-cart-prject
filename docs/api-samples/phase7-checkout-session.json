@@ -1,0 +1,8 @@
+{
+  "status": "success",
+  "session": {
+    "url": "https://checkout.stripe.com/[REDACTED]",
+    "success_url": "http://localhost:3000/allorders",
+    "cancel_url": "http://localhost:3000/cart"
+  }
+}

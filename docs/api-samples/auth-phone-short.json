@@ -1,0 +1,9 @@
+{
+  "message": "fail",
+  "errors": {
+    "value": "123",
+    "msg": "accept only egypt phone numbers",
+    "param": "phone",
+    "location": "body"
+  }
+}

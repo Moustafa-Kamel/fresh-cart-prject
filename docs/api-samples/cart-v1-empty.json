@@ -1,0 +1,8 @@
+{
+  "status": "success",
+  "numOfCartItems": 0,
+  "data": {
+    "products": [],
+    "totalCartPrice": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "success",
+  "message": "Product added successfully to your cart",
+  "numOfCartItems": 1,
+  "cartId": "6af0c41acfea3d00130e8392",
+  "data": {
+    "_id": "6af0c41acfea3d00130e8392",
+    "cartOwner": "6af0c414cfea3d00130e834e",
+    "products": [
+      {
+        "count": 1,
+        "_id": "6af0c41ccfea3d00130e83ac",
+        "product": "6428ebc6dc1175abc65ca0b9",
+        "price": 149
+      }
+    ],
+    "createdAt": "2026-11-08T18:48:58.358Z",
+    "updatedAt": "2026-11-08T18:49:00.201Z",
+    "__v": 1,
+    "totalCartPrice": 149
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "message": "success",
+  "user": {
+    "name": "Validation Test",
+    "email": "validation-07f4239ad2181c8b@example.com",
+    "role": "user"
+  },
+  "token": "[REDACTED]"
+}

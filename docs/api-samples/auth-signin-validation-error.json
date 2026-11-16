@@ -1,0 +1,8 @@
+{
+  "message": "fail",
+  "errors": {
+    "msg": "Email is required",
+    "param": "email",
+    "location": "body"
+  }
+}

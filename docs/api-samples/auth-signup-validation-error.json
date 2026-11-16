@@ -1,0 +1,8 @@
+{
+  "message": "fail",
+  "errors": {
+    "msg": "must be at least 3 chars",
+    "param": "name",
+    "location": "body"
+  }
+}

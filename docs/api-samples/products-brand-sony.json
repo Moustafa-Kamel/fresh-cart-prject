@@ -1,0 +1,422 @@
+{
+  "results": 9,
+  "metadata": { "currentPage": 1, "numberOfPages": 1, "limit": 40 },
+  "data": [
+    {
+      "sold": 504,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678303324664-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678303324665-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678303324664-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678303324665-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678303324665-5.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678303324666-7.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678303324666-6.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678303324667-8.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f3a8b575d3b90bf957e2",
+          "name": "Laptops & Accessories",
+          "slug": "laptops-and-accessories",
+          "category": "6439d2d167d9aa4ca970649f"
+        }
+      ],
+      "ratingsQuantity": 9,
+      "_id": "6408e05d6406cd15828e8f16",
+      "title": "Galaxy Buds 2 Graphite",
+      "slug": "galaxy-buds-2-graphite",
+      "description": "Galaxy Buds 2 come up to 20 hours of playback time with active noise cancellation (ANC) turned on\nThe TWS earphones appear to have a total of three microphones and an integrated voice recording unit for high quality calls\nThe charging case offers an additional 15 hours worth of battery life\nGalaxy Buds2 ear buds take your passion for music to new heights with booming sound that makes you feel like you're on stage with your favorite band\nGalaxy Buds2 have a comfortable, low profile design that's 10% smaller and lighter than Galaxy Buds+; You may get to the end of your playlist before you remember you're wearing them at all\nThe earbuds’ 3 microphones and noise reduction technology ensures voices are transmitted crisply and clearly, whether you're chatting with a friend or leading a high stakes conference call",
+      "quantity": 600,
+      "price": 3999,
+      "availableColors": [],
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1678303324588-cover.jpeg",
+      "category": {
+        "_id": "6439d2d167d9aa4ca970649f",
+        "name": "Electronics",
+        "slug": "electronics",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png"
+      },
+      "brand": {
+        "_id": "64089f5824b25627a25315c7",
+        "name": "SONY",
+        "slug": "sony",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678286680638.png"
+      },
+      "ratingsAverage": 3.6,
+      "createdAt": "2023-03-08T19:22:05.355Z",
+      "updatedAt": "2026-11-14T20:45:54.763Z",
+      "id": "6408e05d6406cd15828e8f16"
+    },
+    {
+      "sold": 442,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678302803182-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678302803182-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678302803181-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678302803183-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678302803183-5.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678302803183-6.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678302803184-7.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678302803184-8.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678302803185-10.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678302803184-9.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f3a8b575d3b90bf957e2",
+          "name": "Laptops & Accessories",
+          "slug": "laptops-and-accessories",
+          "category": "6439d2d167d9aa4ca970649f"
+        }
+      ],
+      "ratingsQuantity": 9,
+      "_id": "6408de536406cd15828e8f10",
+      "title": "WH-CH510 Wireless On-Ear Bluetooth Headphones Black",
+      "slug": "wh-ch510-wireless-on-ear-bluetooth-headphones-black",
+      "description": "Bluetooth wireless technology for unrestricted movement\nUp to 35 hours of battery life for all-day power and quick charging\nEasy hands-free calling and voice assistant commands with microphone\nCompact and lightweight, swivel ear cups allow easy portability\nSimple button press connects you to your smartphone's voice assistant to get directions, play music\nHear more detail with 30mm Driver Unit",
+      "quantity": 600,
+      "price": 1949,
+      "availableColors": [],
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1678302803089-cover.jpeg",
+      "category": {
+        "_id": "6439d2d167d9aa4ca970649f",
+        "name": "Electronics",
+        "slug": "electronics",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png"
+      },
+      "brand": {
+        "_id": "64089f5824b25627a25315c7",
+        "name": "SONY",
+        "slug": "sony",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678286680638.png"
+      },
+      "ratingsAverage": 3.9,
+      "createdAt": "2023-03-08T19:13:23.984Z",
+      "updatedAt": "2026-11-14T18:48:11.918Z",
+      "id": "6408de536406cd15828e8f10"
+    },
+    {
+      "sold": 68,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298856237-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298856237-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298856238-5.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298856236-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298856238-7.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298856238-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298856239-8.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298856238-6.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f39bb575d3b90bf957df",
+          "name": "TVs, Satellites & Accessories",
+          "slug": "tvs-satellites-and-accessories",
+          "category": "6439d2d167d9aa4ca970649f"
+        }
+      ],
+      "ratingsQuantity": 1,
+      "_id": "6408cee96406cd15828e8eda",
+      "title": "Shield LED TV 43 Inch Full HD With 2 HDMI and 2 USB Inputs 43EL8250E-A Black",
+      "slug": "shield-led-tv-43-inch-full-hd-with-2-hdmi-and-2-usb-inputs-43el8250e-a-black",
+      "description": "Harmonizes with your space and add sophisticated ambience\nMaintains accurate color, even from the sides, and allows everyone to enjoy the realistic picture\nHigh quality materials ensures durability and longevity\nColor-saturated picture even while looking at the screen from sideways. The audio technology ensures an incredible sound surround and acoustic experience\nWe think inside, outside and about the box. Thus, our packaging lives up to the brand image and the quality of the product\nContrast enhancer brings flat images to life by adjusting contrast and delivering stunning image quality with more depth\nEnhanced details for clearer photos ultra clean view theme delivers high-quality images with less noise, while using an advanced algorithm to analyze original content and provide enhanced detail\nExceptional gaming performance with quick response action, colour and detail of brings everything you watch is clear, bright and incredibly realistic",
+      "quantity": 278,
+      "price": 9099,
+      "priceAfterDiscount": 0,
+      "availableColors": [],
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1678298856153-cover.jpeg",
+      "category": {
+        "_id": "6439d2d167d9aa4ca970649f",
+        "name": "Electronics",
+        "slug": "electronics",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png"
+      },
+      "brand": {
+        "_id": "64089f5824b25627a25315c7",
+        "name": "SONY",
+        "slug": "sony",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678286680638.png"
+      },
+      "ratingsAverage": 3,
+      "createdAt": "2023-03-08T18:07:37.051Z",
+      "updatedAt": "2026-11-10T16:53:05.450Z",
+      "id": "6408cee96406cd15828e8eda"
+    },
+    {
+      "sold": 79,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298635455-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298635454-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298635455-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298635455-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298635456-5.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f39bb575d3b90bf957df",
+          "name": "TVs, Satellites & Accessories",
+          "slug": "tvs-satellites-and-accessories",
+          "category": "6439d2d167d9aa4ca970649f"
+        }
+      ],
+      "ratingsQuantity": 11,
+      "_id": "6408ce0c6406cd15828e8ed4",
+      "title": "TORNADO Smart LED TV 43 Inch Full HD With Built-In Receiver, 2 HDMI and 2 USB Inputs 43ES1500E Black - WE Offer (50 GB Free for 1 Month) 43ES1500E Black",
+      "slug": "tornado-smart-led-tv-43-inch-full-hd-with-built-in-receiver-2-hdmi-and-2-usb-inputs-43es1500e-black-we-offer-(50-gb-free-for-1-month)-43es1500e-black",
+      "description": "Connect With Wired and Wireless Internet\nUSB : Video - Photos - Music\nSound Modes : Standard - Music - Movies - Sports - Personal\nOn an Ultra-high-definition TV with 4 times the amount of pixels of a standard Full HD TV, you will be enjoying a clear, crisp image with more detail. The effect will be much more pronounced on larger screen sizes\nQuantum dot 4K displays produce enhanced colours and contrast compared to non-quantum dot LED displays\nHigh Dynamic Range increases the range of light levels on your TV so you can enjoy an enormous spectrum of colors and all the visual details, in even the darkest scene",
+      "quantity": 270,
+      "price": 8499,
+      "priceAfterDiscount": 0,
+      "availableColors": [],
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1678298635287-cover.jpeg",
+      "category": {
+        "_id": "6439d2d167d9aa4ca970649f",
+        "name": "Electronics",
+        "slug": "electronics",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png"
+      },
+      "brand": {
+        "_id": "64089f5824b25627a25315c7",
+        "name": "SONY",
+        "slug": "sony",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678286680638.png"
+      },
+      "ratingsAverage": 4.4,
+      "createdAt": "2023-03-08T18:03:56.118Z",
+      "updatedAt": "2026-11-09T21:49:58.557Z",
+      "id": "6408ce0c6406cd15828e8ed4"
+    },
+    {
+      "sold": 93,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298336132-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298336132-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298336131-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298336133-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298336133-5.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f39bb575d3b90bf957df",
+          "name": "TVs, Satellites & Accessories",
+          "slug": "tvs-satellites-and-accessories",
+          "category": "6439d2d167d9aa4ca970649f"
+        }
+      ],
+      "ratingsQuantity": 30,
+      "_id": "6408cce16406cd15828e8ece",
+      "title": "TORNADO LED TV 32 Inch HD With Built-In Receiver, 2 HDMI and 2 USB Inputs 32ER9300E Black",
+      "slug": "tornado-led-tv-32-inch-hd-with-built-in-receiver-2-hdmi-and-2-usb-inputs-32er9300e-black",
+      "description": "Viewing Angle : 178°\nUSB : Video - Photos - Music\nContrast Ratio : 1:1100\nLED TVs are more energy-efficient as these models use light emitting diodes (LED) for backlighting\nThese TVs consume less power as compared to cold cathode fluorescent lamps (CCFL), which most LCD TVs use\nThis results in a power savings of up to 30%\nDimensions ( Width x Height x Depth ) mm :- Without Stand : 733 x 433.3 x 77.1. With Stand : 733 x 469.5 x 178.2",
+      "quantity": 238,
+      "price": 5114,
+      "priceAfterDiscount": 0,
+      "availableColors": [],
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1678298336042-cover.jpeg",
+      "category": {
+        "_id": "6439d2d167d9aa4ca970649f",
+        "name": "Electronics",
+        "slug": "electronics",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png"
+      },
+      "brand": {
+        "_id": "64089f5824b25627a25315c7",
+        "name": "SONY",
+        "slug": "sony",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678286680638.png"
+      },
+      "ratingsAverage": 4.9,
+      "createdAt": "2023-03-08T17:58:57.116Z",
+      "updatedAt": "2026-11-09T21:49:58.557Z",
+      "id": "6408cce16406cd15828e8ece"
+    },
+    {
+      "sold": 108,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298246326-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298246325-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298246326-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298246325-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678298246327-5.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f39bb575d3b90bf957df",
+          "name": "TVs, Satellites & Accessories",
+          "slug": "tvs-satellites-and-accessories",
+          "category": "6439d2d167d9aa4ca970649f"
+        }
+      ],
+      "ratingsQuantity": 50,
+      "_id": "6408cc876406cd15828e8ec8",
+      "title": "TORNADO Smart LED TV 32 Inch HD With Built-In Receiver, 2 HDMI and 2 USB Inputs 32ES1500E Black - WE Offer (50 GB Free for 1 Month) 32ES1500E Black",
+      "slug": "tornado-smart-led-tv-32-inch-hd-with-built-in-receiver-2-hdmi-and-2-usb-inputs-32es1500e-black-we-offer-(50-gb-free-for-1-month)-32es1500e-black",
+      "description": "Connect With Wired and Wireless Internet\nUSB : Video - Photos - Music\nSound Modes : Standard - Music - Movies - Sports - Personal\nOperating System: Tornado Portal",
+      "quantity": 230,
+      "price": 4799,
+      "priceAfterDiscount": 0,
+      "availableColors": [],
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1678298246240-cover.jpeg",
+      "category": {
+        "_id": "6439d2d167d9aa4ca970649f",
+        "name": "Electronics",
+        "slug": "electronics",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png"
+      },
+      "brand": {
+        "_id": "64089f5824b25627a25315c7",
+        "name": "SONY",
+        "slug": "sony",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678286680638.png"
+      },
+      "ratingsAverage": 4.5,
+      "createdAt": "2023-03-08T17:57:27.062Z",
+      "updatedAt": "2026-11-09T21:49:58.557Z",
+      "id": "6408cc876406cd15828e8ec8"
+    },
+    {
+      "sold": 70,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297987206-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297987205-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297987207-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297987210-5.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297987209-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297987210-7.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297987210-6.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297987210-8.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297987211-10.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297987211-9.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f39bb575d3b90bf957df",
+          "name": "TVs, Satellites & Accessories",
+          "slug": "tvs-satellites-and-accessories",
+          "category": "6439d2d167d9aa4ca970649f"
+        }
+      ],
+      "ratingsQuantity": 25,
+      "_id": "6408cb846406cd15828e8ec2",
+      "title": "4K Smart LED TV 55 Inch With Android System, WiFi Connection, 3 HDMI and 2 USB Inputs KD-55X7500H Black - WE Offer (100 GB Free for 3 Months) KD-55X7500H Black",
+      "slug": "4k-smart-led-tv-55-inch-with-android-system-wifi-connection-3-hdmi-and-2-usb-inputs-kd-55x7500h-black-we-offer-(100-gb-free-for-3-months)-kd-55x7500h-black",
+      "description": "Experience our stunning Full HD picture quality, whatever you’re watching across all your entertainment\nDiscover a thrilling world of extraordinary clarity, whatever you're watching\nHear more from a compact speaker box with intense, focused sound\nBRAVIA is Google Cast ready so you can easily cast your favourite entertainment like YouTube from your personal device on to the stunning BRAVIA screen\nMake your listening as lifelike as your viewing. ClearAudio+ fine-tunes TV sound for an immersive experience that seems to surround you\nHigh Dynamic Range increases the range of light levels on your TV so you can enjoy an enormous spectrum of colors and all the visual details, in even the darkest scenes\nA sleek and elegant design that draws you to the purest picture\nCrafted with an effortless minimalistic style from every angle and a boundless design that sets new standards.",
+      "quantity": 400,
+      "price": 20483,
+      "priceAfterDiscount": 0,
+      "availableColors": [],
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1678297987134-cover.jpeg",
+      "category": {
+        "_id": "6439d2d167d9aa4ca970649f",
+        "name": "Electronics",
+        "slug": "electronics",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png"
+      },
+      "brand": {
+        "_id": "64089f5824b25627a25315c7",
+        "name": "SONY",
+        "slug": "sony",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678286680638.png"
+      },
+      "ratingsAverage": 4.5,
+      "createdAt": "2023-03-08T17:53:08.318Z",
+      "updatedAt": "2026-11-14T10:00:34.278Z",
+      "id": "6408cb846406cd15828e8ec2"
+    },
+    {
+      "sold": 81,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297580295-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297580294-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297580295-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297580296-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297580297-7.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297580296-5.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297580296-6.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297580297-8.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f39bb575d3b90bf957df",
+          "name": "TVs, Satellites & Accessories",
+          "slug": "tvs-satellites-and-accessories",
+          "category": "6439d2d167d9aa4ca970649f"
+        }
+      ],
+      "ratingsQuantity": 1,
+      "_id": "6408c9ed6406cd15828e8ebc",
+      "title": "Smart LED TV 50 Inch Full HD With Built-In Receiver, 2 HDMI and 2 USB Inputs KDL-50WF665 Black - WE Offer (100 GB Free for 3 Months) KDL-50WF665 Black",
+      "slug": "smart-led-tv-50-inch-full-hd-with-built-in-receiver-2-hdmi-and-2-usb-inputs-kdl-50wf665-black-we-offer-(100-gb-free-for-3-months)-kdl-50wf665-black",
+      "description": "Connect with wired and wireless internet\nAccess YouTube instantly with one click\nUSB Tethering seamlessly connect to internet with mobile data\nResolution:1920 x 1080\nTriluminous display maps a wider palette than most other TVs, reproducing every shade and hue",
+      "quantity": 308,
+      "price": 14051,
+      "priceAfterDiscount": 0,
+      "availableColors": [],
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1678297580201-cover.jpeg",
+      "category": {
+        "_id": "6439d2d167d9aa4ca970649f",
+        "name": "Electronics",
+        "slug": "electronics",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png"
+      },
+      "brand": {
+        "_id": "64089f5824b25627a25315c7",
+        "name": "SONY",
+        "slug": "sony",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678286680638.png"
+      },
+      "ratingsAverage": 5,
+      "createdAt": "2023-03-08T17:46:21.050Z",
+      "updatedAt": "2026-11-13T19:22:06.384Z",
+      "id": "6408c9ed6406cd15828e8ebc"
+    },
+    {
+      "sold": 86,
+      "images": [
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297344898-3.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297344898-2.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297344899-4.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297344899-5.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297344897-1.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297344899-6.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297344900-7.jpeg",
+        "https://ecommerce.routemisr.com/Route-Academy-products/1678297344900-8.jpeg"
+      ],
+      "subcategory": [
+        {
+          "_id": "6407f39bb575d3b90bf957df",
+          "name": "TVs, Satellites & Accessories",
+          "slug": "tvs-satellites-and-accessories",
+          "category": "6439d2d167d9aa4ca970649f"
+        }
+      ],
+      "ratingsQuantity": 0,
+      "_id": "6408c9026406cd15828e8eb6",
+      "title": "Smart TV 32 Inch HD LED With Built in WiFi, 2 HDMI and 2 USB Inputs KDL-32W600D Black - WE Offer (50 GB Free for 1 Month) KDL-32W600D Black",
+      "slug": "smart-tv-32-inch-hd-led-with-built-in-wifi-2-hdmi-and-2-usb-inputs-kdl-32w600d-black-we-offer-(50-gb-free-for-1-month)-kdl-32w600d-black",
+      "description": "32-inch HD display for stunning photo-realistic visuals\nGo online and browse movies and enjoy video channels through built-in Wi-Fi\nThe multi format USB play lets you play music, video clips and view photos\nRefresh rate technology allows fast moving action sequences to be seen with precise motion clarity\nUses a powerful model to analyze inaccuracies in speaker response by sampling the speaker frequency",
+      "quantity": 308,
+      "price": 6700,
+      "priceAfterDiscount": 6549,
+      "availableColors": [],
+      "imageCover": "https://ecommerce.routemisr.com/Route-Academy-products/1678297344768-cover.jpeg",
+      "category": {
+        "_id": "6439d2d167d9aa4ca970649f",
+        "name": "Electronics",
+        "slug": "electronics",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-categories/1681511121316.png"
+      },
+      "brand": {
+        "_id": "64089f5824b25627a25315c7",
+        "name": "SONY",
+        "slug": "sony",
+        "image": "https://ecommerce.routemisr.com/Route-Academy-brands/1678286680638.png"
+      },
+      "ratingsAverage": 0,
+      "createdAt": "2023-03-08T17:42:26.032Z",
+      "updatedAt": "2026-10-27T15:01:22.353Z",
+      "id": "6408c9026406cd15828e8eb6"
+    }
+  ]
+}

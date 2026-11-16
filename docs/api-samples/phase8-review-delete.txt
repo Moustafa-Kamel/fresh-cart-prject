@@ -1,0 +1,3 @@
+DELETE /api/v1/reviews/:id
+Successful deletion returned an empty response body.
+A subsequent delete was rejected (400), and the deleted review is no longer available.

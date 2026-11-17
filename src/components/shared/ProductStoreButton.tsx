@@ -10,7 +10,7 @@ type ProductSnapshot = {
   title: string;
   imageCover: string;
   price: number;
-  category?: { name: string };
+  category: { name: string };
 };
 
 type StoreLike = {

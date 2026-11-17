@@ -12,8 +12,10 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { signOut, useSession } from "next-auth/react";
 import { useState } from "react";
+import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -30,6 +32,17 @@ const rowClass =
   "flex items-center gap-3 rounded-lg px-4 py-3 text-base text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground";
 
 export function MobileNav() {
+  const router = useRouter();
+  async function logout() {
+    try {
+      await signOut({ redirect: false });
+      toast.success("Logged out successfully.");
+      router.push("/login");
+      router.refresh();
+    } catch {
+      toast.error("Unable to log out. Please try again.");
+    }
+  }
   const [open, setOpen] = useState(false);
   const { data: session } = useSession();
 
@@ -151,7 +164,7 @@ export function MobileNav() {
                 type="button"
                 onClick={() => {
                   setOpen(false);
-                  void signOut({ callbackUrl: "/login" });
+                  void logout();
                 }}
                 className={`${rowClass} cursor-pointer  w-full text-destructive hover:text-destructive`}
               >

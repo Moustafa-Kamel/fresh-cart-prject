@@ -1,10 +1,11 @@
 "use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
-import { CircleCheck, UserPlus } from "lucide-react";
+import { UserPlus } from "lucide-react";
 import { useRouter } from "next/navigation";
-import { useState, useTransition } from "react";
+import { useTransition } from "react";
 import { useForm } from "react-hook-form";
+import { toast } from "sonner";
 import { registerAction } from "@/actions/auth";
 import { Button } from "@/components/ui/button";
 import { getPasswordStrength } from "@/lib/auth/passwordStrength";
@@ -12,7 +13,6 @@ import { type RegisterValues, registerSchema } from "@/lib/validations/auth";
 
 export default function RegisterForm() {
   const router = useRouter();
-  const [success, setSuccess] = useState(false);
   const [isPending, startTransition] = useTransition();
   const {
     register,
@@ -36,19 +36,19 @@ export default function RegisterForm() {
 
   function onSubmit(values: RegisterValues) {
     clearErrors("root");
-    setSuccess(false);
     startTransition(async () => {
       try {
         const result = await registerAction(values);
         if ("error" in result) {
           setError("root", { message: result.error });
+          toast.error(result.error);
         } else {
-          setSuccess(true);
-          await new Promise((resolve) => setTimeout(resolve, 1500));
+          toast.success(result.success);
           router.push("/login");
         }
       } catch {
         setError("root", { message: "Unable to submit. Please try again." });
+        toast.error("Unable to submit. Please try again.");
       }
     });
   }
@@ -205,18 +205,6 @@ export default function RegisterForm() {
         <p role="alert" className="text-sm text-destructive">
           {errors.root.message}
         </p>
-      )}
-      {success && (
-        <output
-          className="fixed top-4 right-4 left-4 z-50 flex items-center gap-3 rounded-md border bg-card p-4 text-sm text-foreground shadow-card sm:left-auto"
-          aria-live="polite"
-        >
-          <CircleCheck
-            className="size-5 shrink-0 text-primary"
-            aria-hidden="true"
-          />
-          Account created successfully!
-        </output>
       )}
       <Button
         unstyled

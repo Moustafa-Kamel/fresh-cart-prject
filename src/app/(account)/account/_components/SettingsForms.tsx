@@ -2,6 +2,8 @@
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { LockKeyhole, Save, UserRound } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { useSession } from "next-auth/react";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
 import { changeAccountPassword, saveAccountProfile } from "@/actions/account";
@@ -26,6 +28,8 @@ export function SettingsForms({
   userId: string;
   role: string;
 }) {
+  const router = useRouter();
+  const { update } = useSession();
   const profile = useForm<ProfileValues>({
     resolver: zodResolver(profileSchema),
     defaultValues: { name, email, phone: "" },
@@ -41,8 +45,10 @@ export function SettingsForms({
         toast.error(result.message);
         return;
       }
+      await update();
       toast.success(result.message);
-      window.location.assign("/login?callbackUrl=%2Faccount");
+      router.push("/login?callbackUrl=%2Faccount");
+      router.refresh();
     } catch {
       toast.error("Unable to save profile. Please try again.");
     }
@@ -55,8 +61,10 @@ export function SettingsForms({
         return;
       }
       password.reset();
+      await update();
       toast.success(result.message);
-      window.location.assign("/login?callbackUrl=%2Faccount");
+      router.push("/login?callbackUrl=%2Faccount");
+      router.refresh();
     } catch {
       toast.error("Unable to change password. Please try again.");
     }

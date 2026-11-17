@@ -10,6 +10,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 type OrderSummaryProps = {
+  isGuest?: boolean;
   itemCount: number;
   subtotal: string;
   shipping: string;
@@ -19,6 +20,7 @@ type OrderSummaryProps = {
 };
 
 export function OrderSummary({
+  isGuest = false,
   itemCount,
   subtotal,
   shipping,
@@ -74,20 +76,22 @@ export function OrderSummary({
             </dd>
           </div>
         </dl>
-        <Button
-          unstyled
-          type="button"
-          className="mt-7 flex w-full items-center justify-center gap-3 rounded-xl border border-dashed px-4 py-4 text-muted-foreground"
-        >
-          <Tag aria-hidden="true" className="size-5" />
-          Apply Promo Code
-        </Button>
+        {!isGuest && (
+          <Button
+            unstyled
+            type="button"
+            className="mt-7 flex w-full items-center justify-center gap-3 rounded-xl border border-dashed px-4 py-4 text-muted-foreground"
+          >
+            <Tag aria-hidden="true" className="size-5" />
+            Apply Promo Code
+          </Button>
+        )}
         <Link
-          href="/checkout"
+          href={isGuest ? "/login?callbackUrl=/checkout" : "/checkout"}
           className="mt-6 flex cursor-pointer w-full items-center justify-center gap-3 rounded-xl bg-linear-to-r from-primary to-primary-hover px-4 py-5 text-lg font-bold text-primary-foreground shadow-card"
         >
           <LockKeyhole aria-hidden="true" className="size-5" />
-          Secure Checkout
+          {isGuest ? "Sign in to checkout" : "Secure Checkout"}
         </Link>
         <div className="mt-7 flex flex-wrap justify-center gap-3 text-xs text-muted-foreground sm:text-sm">
           <span className="inline-flex items-center gap-2">

@@ -3,13 +3,17 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { LockKeyhole, Mail } from "lucide-react";
 import Link from "next/link";
-import { useState, useTransition } from "react";
+import { useRouter } from "next/navigation";
+import { useSession } from "next-auth/react";
+import { useTransition } from "react";
 import { useForm } from "react-hook-form";
+import { toast } from "sonner";
 import { loginAction } from "@/actions/auth";
 import { Button } from "@/components/ui/button";
 import { type LoginValues, loginSchema } from "@/lib/validations/auth";
 export default function LoginForm() {
-  const [success, setSuccess] = useState("");
+  const router = useRouter();
+  const { update } = useSession();
   const [isPending, startTransition] = useTransition();
   const {
     register,
@@ -25,26 +29,28 @@ export default function LoginForm() {
 
   function onSubmit(values: LoginValues) {
     clearErrors("root");
-    setSuccess("");
     startTransition(async () => {
       try {
         const result = await loginAction(values);
         if ("error" in result) {
           setError("root", { message: result.error });
+          toast.error(result.error);
           return;
         }
-        setSuccess("Logged in successfully.");
+        await update();
+        toast.success("Logged in successfully.");
         const requested = new URLSearchParams(window.location.search).get(
           "callbackUrl",
         );
         const destination = new URL(requested ?? "/", window.location.origin);
-        window.location.assign(
+        router.push(
           destination.origin === window.location.origin
             ? destination.pathname + destination.search + destination.hash
             : "/",
         );
       } catch {
         setError("root", { message: "Unable to submit. Please try again." });
+        toast.error("Unable to submit. Please try again.");
       }
     });
   }
@@ -125,15 +131,10 @@ export default function LoginForm() {
           </p>
         )}
       </div>
-      {(errors.root || success) && (
-        <div
-          role={errors.root ? "alert" : "status"}
-          className={`fixed top-4 right-4 z-50 max-w-[calc(100vw-2rem)] rounded-lg border bg-background px-4 py-3 text-sm shadow-lg ${
-            errors.root ? "text-destructive" : "text-primary"
-          }`}
-        >
-          {errors.root?.message || success}
-        </div>
+      {errors.root && (
+        <p role="alert" className="text-sm text-destructive">
+          {errors.root.message}
+        </p>
       )}
       <Button
         unstyled

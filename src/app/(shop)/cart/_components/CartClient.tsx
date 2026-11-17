@@ -46,6 +46,7 @@ export function CartClient() {
             stockLabel: store.isGuest ? "Saved item" : "In Cart",
           }))}
           summary={{
+            isGuest: store.isGuest,
             itemCount: store.cartCount,
             subtotal: money(store.total),
             total: money(store.total),

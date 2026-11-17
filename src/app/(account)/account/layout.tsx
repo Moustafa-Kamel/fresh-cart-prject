@@ -1,5 +1,4 @@
 import { UserRound } from "lucide-react";
-import { Toaster } from "sonner";
 import { PageHero } from "@/components/shared/PageHero";
 import { AccountNav } from "./_components/AccountNav";
 
@@ -10,7 +9,6 @@ export default function MyAccountLayout({
 }) {
   return (
     <>
-      <Toaster />
       <PageHero
         title="My Account"
         subtitle="Manage your addresses and account settings"

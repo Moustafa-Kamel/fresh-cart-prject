@@ -3,7 +3,7 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Send } from "lucide-react";
 import { useForm } from "react-hook-form";
-import { Toaster, toast } from "sonner";
+import { toast } from "sonner";
 import { z } from "zod";
 import { Button } from "@/components/ui/button";
 
@@ -52,127 +52,124 @@ export function ContactForm() {
   }
 
   return (
-    <>
-      <Toaster richColors />
-      <form
-        onSubmit={handleSubmit(submitMessage)}
-        noValidate
-        className="space-y-5"
-      >
-        <div className="grid gap-5 sm:grid-cols-2">
-          <div>
-            <label htmlFor="contact-name" className="text-sm font-medium">
-              Full Name
-            </label>
-            <input
-              id="contact-name"
-              required
-              autoComplete="name"
-              placeholder="John Doe"
-              className={inputClass}
-              aria-invalid={!!errors.name}
-              aria-describedby={errors.name ? "name-error" : undefined}
-              {...register("name")}
-            />
-            {errors.name && (
-              <p
-                id="name-error"
-                role="alert"
-                className="mt-1 text-sm text-destructive"
-              >
-                {errors.name.message}
-              </p>
-            )}
-          </div>
-          <div>
-            <label htmlFor="contact-email" className="text-sm font-medium">
-              Email Address
-            </label>
-            <input
-              id="contact-email"
-              required
-              type="email"
-              autoComplete="email"
-              placeholder="john@example.com"
-              className={inputClass}
-              aria-invalid={!!errors.email}
-              aria-describedby={errors.email ? "email-error" : undefined}
-              {...register("email")}
-            />
-            {errors.email && (
-              <p
-                id="email-error"
-                role="alert"
-                className="mt-1 text-sm text-destructive"
-              >
-                {errors.email.message}
-              </p>
-            )}
-          </div>
-        </div>
+    <form
+      onSubmit={handleSubmit(submitMessage)}
+      noValidate
+      className="space-y-5"
+    >
+      <div className="grid gap-5 sm:grid-cols-2">
         <div>
-          <label htmlFor="contact-subject" className="text-sm font-medium">
-            Subject
+          <label htmlFor="contact-name" className="text-sm font-medium">
+            Full Name
           </label>
-          <select
-            id="contact-subject"
+          <input
+            id="contact-name"
             required
+            autoComplete="name"
+            placeholder="John Doe"
             className={inputClass}
-            aria-invalid={!!errors.subject}
-            aria-describedby={errors.subject ? "subject-error" : undefined}
-            {...register("subject")}
-          >
-            <option value="" disabled>
-              Select a subject
-            </option>
-            {subjects.map((subject) => (
-              <option key={subject} value={subject}>
-                {subject}
-              </option>
-            ))}
-          </select>
-          {errors.subject && (
+            aria-invalid={!!errors.name}
+            aria-describedby={errors.name ? "name-error" : undefined}
+            {...register("name")}
+          />
+          {errors.name && (
             <p
-              id="subject-error"
+              id="name-error"
               role="alert"
               className="mt-1 text-sm text-destructive"
             >
-              {errors.subject.message}
+              {errors.name.message}
             </p>
           )}
         </div>
         <div>
-          <label htmlFor="contact-message" className="text-sm font-medium">
-            Message
+          <label htmlFor="contact-email" className="text-sm font-medium">
+            Email Address
           </label>
-          <textarea
-            id="contact-message"
+          <input
+            id="contact-email"
             required
-            rows={6}
-            placeholder="How can we help you?"
-            className={`${inputClass} resize-y`}
-            aria-invalid={!!errors.message}
-            aria-describedby={errors.message ? "message-error" : undefined}
-            {...register("message")}
+            type="email"
+            autoComplete="email"
+            placeholder="john@example.com"
+            className={inputClass}
+            aria-invalid={!!errors.email}
+            aria-describedby={errors.email ? "email-error" : undefined}
+            {...register("email")}
           />
-          {errors.message && (
+          {errors.email && (
             <p
-              id="message-error"
+              id="email-error"
               role="alert"
               className="mt-1 text-sm text-destructive"
             >
-              {errors.message.message}
+              {errors.email.message}
             </p>
           )}
         </div>
-        <Button
-          unstyled
-          type="submit"
-          className="inline-flex cursor-pointer items-center justify-center gap-2 rounded-lg bg-primary px-8 py-4 font-semibold text-primary-foreground shadow-card transition-colors hover:bg-primary-hover"
+      </div>
+      <div>
+        <label htmlFor="contact-subject" className="text-sm font-medium">
+          Subject
+        </label>
+        <select
+          id="contact-subject"
+          required
+          className={inputClass}
+          aria-invalid={!!errors.subject}
+          aria-describedby={errors.subject ? "subject-error" : undefined}
+          {...register("subject")}
         >
-          <Send aria-hidden="true" className="size-4" /> Send Message
-        </Button>
-      </form>
-    </>
+          <option value="" disabled>
+            Select a subject
+          </option>
+          {subjects.map((subject) => (
+            <option key={subject} value={subject}>
+              {subject}
+            </option>
+          ))}
+        </select>
+        {errors.subject && (
+          <p
+            id="subject-error"
+            role="alert"
+            className="mt-1 text-sm text-destructive"
+          >
+            {errors.subject.message}
+          </p>
+        )}
+      </div>
+      <div>
+        <label htmlFor="contact-message" className="text-sm font-medium">
+          Message
+        </label>
+        <textarea
+          id="contact-message"
+          required
+          rows={6}
+          placeholder="How can we help you?"
+          className={`${inputClass} resize-y`}
+          aria-invalid={!!errors.message}
+          aria-describedby={errors.message ? "message-error" : undefined}
+          {...register("message")}
+        />
+        {errors.message && (
+          <p
+            id="message-error"
+            role="alert"
+            className="mt-1 text-sm text-destructive"
+          >
+            {errors.message.message}
+          </p>
+        )}
+      </div>
+      <Button
+        unstyled
+        type="submit"
+        className="inline-flex cursor-pointer items-center justify-center gap-2 rounded-lg bg-primary px-8 py-4 font-semibold text-primary-foreground shadow-card transition-colors hover:bg-primary-hover"
+      >
+        <Send aria-hidden="true" className="size-4" /> Send Message
+      </Button>
+    </form>
   );
 }

@@ -61,6 +61,7 @@ and `npm run build` all pass, and the feature works by hand on mobile and deskto
 
 ## Current status
 Done: Phase 1 (shell), Phase 2 (API layer), Phase 3 (catalog pages), All Phase is Done.
+Guest cart and wishlist use localStorage and merge once after login. Only /checkout, /orders and /account require login (plus /allorders, the payment-return alias for /orders).
 Now: matching the new Stitch design section by section (Home, then Product details, then Products).
 Auth: Auth.js Credentials + JWT session. The API token stays inside the JWT and is read on the server only; it is never copied into the session.
 

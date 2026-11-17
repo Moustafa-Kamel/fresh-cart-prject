@@ -10,7 +10,9 @@ import {
   UserRound,
 } from "lucide-react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { signOut, useSession } from "next-auth/react";
+import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -30,6 +32,17 @@ const accountLinks = [
 ];
 
 export function AccountMenu() {
+  const router = useRouter();
+  async function logout() {
+    try {
+      await signOut({ redirect: false });
+      toast.success("Logged out successfully.");
+      router.push("/login");
+      router.refresh();
+    } catch {
+      toast.error("Unable to log out. Please try again.");
+    }
+  }
   const { data: session, status } = useSession();
 
   if (status === "loading") {
@@ -99,9 +112,7 @@ export function AccountMenu() {
         <DropdownMenuSeparator className="mx-0 my-0" />
         <DropdownMenuItem
           variant="destructive"
-          onClick={() =>
-            void signOut({ callbackUrl: "/login", redirect: true })
-          }
+          onClick={() => void logout()}
           className="gap-3 rounded-none cursor-pointer px-4 py-4"
         >
           <LogOut aria-hidden="true" className="size-4" />

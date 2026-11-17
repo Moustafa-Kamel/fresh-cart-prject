@@ -1,5 +1,4 @@
 import {
-  ArrowRight,
   Headset,
   Leaf,
   Mail,
@@ -21,12 +20,11 @@ import { ProductEmptyState } from "@/components/shared/ProductEmptyState";
 import { ProductGrid } from "@/components/shared/ProductGrid";
 import { Reveal } from "@/components/shared/Reveal";
 import { SectionHeading } from "@/components/shared/SectionHeading";
-import { Button } from "@/components/ui/button";
 import { getAllCategories } from "@/lib/api/categories";
 import { getAllProducts } from "@/lib/api/products";
 import { cn } from "@/lib/utils";
-
 import { HeroCarousel } from "./_components/HeroCarousel";
+import { NewsletterForm } from "./_components/NewsletterForm";
 import { PromoCards } from "./_components/PromoCards";
 
 export const revalidate = 60;
@@ -156,7 +154,7 @@ export default function Home() {
         aria-labelledby="newsletter-heading"
         className="container px-4 pb-16 lg:px-8"
       >
-        <div className="grid items-center gap-10 rounded-xl border border-primary/10 bg-linear-to-br from-card to-accent/30 p-6 shadow-card md:p-10 lg:grid-cols-12 lg:gap-12 lg:p-12">
+        <div className="grid items-center gap-8 rounded-3xl border border-primary/10 bg-linear-to-br from-card to-accent/30 p-6 shadow-card md:p-10 lg:grid-cols-12 lg:gap-10 lg:p-12">
           <div className="min-w-0 lg:col-span-7">
             <div className="mb-8 flex items-center gap-4">
               <span className="flex size-12 shrink-0 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-floating">
@@ -176,12 +174,12 @@ export default function Home() {
               className="text-display-mobile md:text-display"
             >
               Get the Freshest Updates{" "}
-              <span className="text-primary">Delivered Free</span>
+              <span className="block text-primary">Delivered Free</span>
             </h2>
             <p className="mt-3 text-sm leading-6 text-muted-foreground md:text-base">
               Weekly recipes, seasonal offers &amp; exclusive member perks.
             </p>
-            <ul className="mt-8 flex flex-wrap gap-3 text-sm font-medium">
+            <ul className="mt-8 flex flex-col items-start gap-3 text-sm font-medium sm:flex-row sm:flex-wrap">
               <li className="inline-flex items-center gap-2 rounded-full border border-primary/10 bg-card px-3 py-2 shadow-card">
                 <span className="flex size-6 items-center justify-center rounded-full bg-accent text-primary">
                   <Leaf aria-hidden="true" className="size-4" />
@@ -201,37 +199,16 @@ export default function Home() {
                 Members-Only Deals
               </li>
             </ul>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <label htmlFor="newsletter-email" className="sr-only">
-                Email address
-              </label>
-              <input
-                id="newsletter-email"
-                type="email"
-                autoComplete="email"
-                placeholder="you@example.com"
-                disabled
-                className="h-14 min-w-0 flex-1 rounded-xl border border-input bg-card px-5 text-base text-foreground shadow-card placeholder:text-subtle-foreground"
-              />
-              <Button
-                unstyled
-                type="button"
-                disabled
-                className="inline-flex h-14 shrink-0 items-center justify-center gap-2 rounded-xl bg-primary px-8 text-base font-semibold text-primary-foreground shadow-floating disabled:cursor-not-allowed"
-              >
-                Subscribe
-                <ArrowRight aria-hidden="true" className="size-5" />
-              </Button>
-            </div>
+            <NewsletterForm />
             <p className="mt-3 flex items-center gap-2 text-xs text-subtle-foreground">
               <Sparkles aria-hidden="true" className="size-4 text-rating" />
               Unsubscribe anytime. No spam, ever.
             </p>
           </div>
-          <div className="relative isolate overflow-hidden rounded-xl border border-footer-border bg-footer p-6 text-footer-foreground shadow-card-hover md:p-8 lg:col-span-5">
+          <div className="relative isolate min-w-0 overflow-hidden rounded-3xl border border-footer-border bg-footer p-6 text-footer-foreground shadow-card-hover md:p-8 lg:col-span-5">
             <div
               aria-hidden="true"
-              className="pointer-events-none absolute -top-16 -right-16 -z-10 size-64 rounded-full bg-accent/30 blur-3xl"
+              className="pointer-events-none absolute -top-16 -right-16 -z-10 size-64 rounded-full bg-primary/20 blur-3xl"
             />
             <p className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-semibold tracking-wide text-footer-foreground uppercase">
               <Smartphone aria-hidden="true" className="size-4" />
@@ -249,11 +226,10 @@ export default function Home() {
                 className="rounded-xl transition-shadow"
                 visibleClassName="shadow-card"
               >
-                <Button
-                  unstyled
-                  type="button"
-                  disabled
-                  className="flex w-full items-center gap-4 rounded-xl border border-footer-border bg-footer-card px-5 py-3 text-left disabled:cursor-not-allowed"
+                <div
+                  role="img"
+                  aria-label="App Store download badge"
+                  className="flex w-full items-center gap-4 rounded-xl border border-footer-border bg-footer-card px-4 py-3 text-left"
                 >
                   <svg
                     aria-hidden="true"
@@ -271,18 +247,17 @@ export default function Home() {
                       App Store
                     </span>
                   </span>
-                </Button>
+                </div>
               </Reveal>
               <Reveal
                 direction="up"
                 className="rounded-xl transition-shadow"
                 visibleClassName="shadow-card"
               >
-                <Button
-                  unstyled
-                  type="button"
-                  disabled
-                  className="flex w-full items-center gap-4 rounded-xl border border-footer-border bg-footer-card px-5 py-3 text-left disabled:cursor-not-allowed"
+                <div
+                  role="img"
+                  aria-label="Google Play download badge"
+                  className="flex w-full items-center gap-4 rounded-xl border border-footer-border bg-footer-card px-4 py-3 text-left"
                 >
                   <svg
                     aria-hidden="true"
@@ -300,7 +275,7 @@ export default function Home() {
                       Google Play
                     </span>
                   </span>
-                </Button>
+                </div>
               </Reveal>
             </div>
             <div className="mt-8 flex flex-wrap items-center gap-2 text-sm text-footer-muted">
